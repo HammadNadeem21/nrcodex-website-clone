@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    
+}
+
+header nav {
+    width: 100%;
+    height: 100px;
+
+    background: #0b163f;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/*---------- header-left-side ----------*/
+
+header nav .left-side a img {
+    height: 30px;
+    /* padding: 20px ; */
+    margin: 40px;
+    margin-left: 100px;
+}
+
+/*---------- header-right-side ----------*/
+header nav .right-side ul {
+    list-style: none;
+    display: flex;
+    padding: 40px;
+    font-weight: 500;
+
+
+}
+
+header nav .right-side ul li a {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 15px;
+    line-height: 26px;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 10px;
+    padding-right: 20px;
+
+}
+
+header nav .right-side ul .contact {
+    background-color: rgb(23, 92, 255);
+    color: white;
+    padding: 10px;
+    margin-right: 20px;
+    border-radius: 5px;
+transition: all 0.5s;
+}
+
+header nav .right-side ul li a:hover {
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+
+}
+
+header nav .right-side ul .contact:hover {
+    color: rgb(23, 92, 255);
+    background: transparent;
+    outline: 1.5px solid rgb(23, 92, 255);
+    transition: all 0.5s;
+
+}
+
+/* ----------top-section---------- */
+.top {
+    height: 150vh;
+    /* width: 100%; */
+    background-color: #0b163f;
+    display: flex;
+    flex-direction:  row;
+}
+
+
+/* ----------top-section-left-side---------- */
+.top-left-side {
+    height: 500px;
+    width: 40%;
+    padding: 200px 0;
+    margin-left: 100px;
+}
+
+.top-left-side h1 {
+    color: white;
+    line-height: 55px;
+    font-size: 46px;
+    font-weight: 700;
+    letter-spacing: 0px;
+}
+
+.top-left-side p {
+    padding: 10px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 0.7);
+}
+.top .top-left-side input{
+    border: none;
+    margin-top: 20px;
+    height: 50px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background-color: rgb(23, 92, 255);
+    color: white;
+    line-height: 26px;
+    transition: all 0.5s;
+}
+.top .top-left-side input:hover{
+   
+    background: transparent;
+    outline: 1.5px solid rgba(255, 255, 255, 0.7);
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+/* ----------top-section-right-side---------- */
+.top .top-right-side{
+    width: 60%;
+    height: 100vh;
+  position: relative;
+  }
+.top .top-right-side img{
+    width: 580px;
+    height: 650px;
+    margin: 70px;
+}
+
+/* -----------------section-one------------ */
+.section-one{
+    width: 100%; 
+    height: 130vh;
+    background-color: #f8f9fa;
+align-items: center;
+    justify-content: center;    
+}
+.section-one .section-one-text{
+width: 50%;
+margin: auto;
+text-align: center;
+padding-top: 150px;
+/* justify-content: center; */
+}
+.section-one .section-one-text h2{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(23, 92, 255);
+}
+.section-one .section-one-text h1{
+    font-size: 40px;
+    font-weight: 700;
+    color: rgb(7, 28, 77);
+    line-height: 80px;
+}
+.section-one .section-one-text p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgb(82, 82, 92);
+}
+/* --------------section-one-task--------------- */
+.section-one-task{
+    width: 100%;
+    padding: 100px;
+    display: flex;
+}
+/* ------------section-one-task-one---------- */
+.section-one-task .task1{
+    width: 350px;
+    height: 250px;
+    padding: 30px;
+    border: 2px solid rgba(165, 165, 173, 0.2);
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.section-one-task .task1 h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgb(7, 28, 77);
+}
+.section-one-task .task1 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(82, 82, 92);
+}
+.section-one-task .task1 i{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    color: white;
+    background-color: #175cff;
+}
+.section-one-task .task1:hover{
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
+    transition: all 0.3s;
+}
+
+/* ------------section-one-task-two---------- */
+
+.section-one-task .task2{
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    padding: 30px;
+    border: 2px solid rgba(165, 165, 173, 0.2);
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.section-one-task .task2 h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgb(7, 28, 77);
+}
+.section-one-task .task2 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+    color: rgb(82, 82, 92);
+}
+.section-one-task .task2 i{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    color: white;
+    background-color: #f25767;
+}
+.section-one-task .task2:hover{
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
+    transition: all 0.3s;
+}
+
+/* ------------section-one-task-three---------- */
+
+.section-one-task .task3{
+    width: 350px;
+    height: 250px;
+    margin-left: 50px;
+    padding: 30px;
+    border: 2px solid rgba(165, 165, 173, 0.3);
+    border-radius: 10px;
+    transition: all 0.2s;
+}
+.section-one-task .task3 h1{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 44px;
+    color: rgb(7, 28, 77);
+}
+.section-one-task .task3 p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    color: rgb(82, 82, 92);
+}
+.section-one-task .task3 i{
+    font-size: 25px;
+    text-align: center;
+    padding: 15px;
+    line-height: 25px;
+    border-radius: 5px;
+    width: 55px;
+    height: 55px;
+    margin: auto;
+    color: white;
+    background-color: #0b163f;
+}
+.section-one-task .task3:hover{
+    border: none;
+    transform: scale(1.1);
+    box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
+    transition: all 0.3s;
+}
+
+
+/* -----------------section-two------------ */
+.section-two{
+    width: 100%;
+    height: 100vh;
+}
+.section-two .section-two-left{
+width: 57%;
+padding: 100px;
+margin-top: 100px;
+/* display: flex; */
+}
+.section-two .section-two-left h1{
+    color: rgb(7, 28, 77);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+}
+.section-two .section-two-left .section-two-left-image{
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+
+       
+}
+.section-two .section-two-left .section-two-left-image img{
+    height: 100%;
+    width: 100%;
+   margin-left: 280px;
+}
+.section-two .section-two-left p{
+ font-size: 16px;
+ margin-top: 20px;
+ line-height: 25px;
+}
+
+/* <!-------- section-two-left-side-icons ---------> */
+.section-two .section-two-left .section-two-left-icons-1{
+height: 50px;
+width: 250px;
+/* display: inline-flex; */
+}
+.section-two .section-two-left .section-two-left-icons-1 i{
+    color: rgb(23, 92, 255);
+
+}

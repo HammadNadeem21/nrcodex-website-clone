@@ -7,7 +7,7 @@
     box-sizing: border-box;
     
 }
-
+/* ===============Header-(Start)============= */
 header nav {
     width: 100%;
     height: 100px;
@@ -71,6 +71,9 @@ header nav .right-side ul .contact:hover {
     transition: all 0.5s;
 
 }
+/* ===============Header-(End)============= */
+
+/* ===============Top-section-(Start)============= */
 
 /* ----------top-section---------- */
 .top {
@@ -137,6 +140,10 @@ header nav .right-side ul .contact:hover {
     margin: 70px;
 }
 
+/* ===============Top-section-(End)============= */
+
+/* ===============Section-One-(Start)============= */
+
 /* -----------------section-one------------ */
 .section-one{
     width: 100%; 
@@ -181,9 +188,9 @@ padding-top: 150px;
     width: 350px;
     height: 250px;
     padding: 30px;
-    border: 2px solid rgba(165, 165, 173, 0.2);
+    outline: 2px solid rgba(165, 165, 173, 0.2);
     border-radius: 10px;
-    transition: all 0.2s;
+    transition: all 0.3s;
 }
 .section-one-task .task1 h1{
     font-size: 20px;
@@ -210,10 +217,11 @@ padding-top: 150px;
     background-color: #175cff;
 }
 .section-one-task .task1:hover{
-    border: none;
-    transform: scale(1.1);
+    outline: none;
+    margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
     transition: all 0.3s;
+    background-color: white;
 }
 
 /* ------------section-one-task-two---------- */
@@ -253,9 +261,10 @@ padding-top: 150px;
 }
 .section-one-task .task2:hover{
     border: none;
-    transform: scale(1.1);
+    margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
     transition: all 0.3s;
+    background-color: white;
 }
 
 /* ------------section-one-task-three---------- */
@@ -295,17 +304,23 @@ padding-top: 150px;
 }
 .section-one-task .task3:hover{
     border: none;
-    transform: scale(1.1);
+    margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
     transition: all 0.3s;
+    background-color: white;
 }
+/* ===============Section-One-(End)============= */
 
+
+/* ===============Section-Two-(Start)============= */
 
 /* -----------------section-two------------ */
 .section-two{
     width: 100%;
     height: 100vh;
 }
+
+/* -----------section-two-left-side---------- */
 .section-two .section-two-left{
 width: 57%;
 padding: 100px;
@@ -337,12 +352,143 @@ margin-top: 100px;
 }
 
 /* <!-------- section-two-left-side-icons ---------> */
+.section-two .section-two-left-icons{
+    height: 200px;
+    width: 300px;
+    /* display: flex; */
+}
 .section-two .section-two-left .section-two-left-icons-1{
-height: 50px;
+ height: 40px;
 width: 250px;
-/* display: inline-flex; */
+display: flex;
+margin-top: 40px;
 }
 .section-two .section-two-left .section-two-left-icons-1 i{
     color: rgb(23, 92, 255);
-
+    font-size: 15px;
+    margin-top: 3px;
+    
 }
+.section-two .section-two-left .section-two-left-icons-1 p{
+     margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+font-size: 15px;
+line-height: 5px;
+}
+.section-two .section-two-left .section-two-left-icons-2{
+    height: 40px;
+   width: 300px;
+   display: flex;
+   margin-top: 0px;
+   }
+   .section-two .section-two-left .section-two-left-icons-2 i{
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+    
+}
+.section-two .section-two-left .section-two-left-icons-2 p{
+     margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+.section-two .section-two-left .section-two-left-icons-3{
+    height: 40px;
+   width: 300px;
+   display: flex;
+   margin-top: 0px;
+   }
+   .section-two .section-two-left .section-two-left-icons-3 i{
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+    
+}
+.section-two .section-two-left .section-two-left-icons-3 p{
+     margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+/* <!-------- section-two-RIGHT-side-icons ---------> */
+.section-two .section-two-right-icons{
+    height: 200px;
+    width: 300px;
+}
+.section-two .section-two-left .section-two-right-icons-1{
+    height: 40px;
+   width: 300px;
+   display: flex;
+   margin-top: -200px;
+   margin-left: 300px;
+   }
+   .section-two .section-two-left .section-two-right-icons-1 i{
+       color: rgb(23, 92, 255);
+       font-size: 15px;
+       margin-top: 3px;
+       
+   }
+   .section-two .section-two-left .section-two-right-icons-1 p{
+        margin-top: 8px;
+       margin-left: 10px;
+       color: rgb(87, 87, 87);
+   font-size: 15px;
+   line-height: 5px;
+   }
+   .section-two .section-two-left .section-two-right-icons-2{
+    height: 40px;
+   width: 300px;
+   display: flex;
+   margin-top: 0px;
+   margin-left: 300px;
+   }
+   .section-two .section-two-left .section-two-right-icons-2 i{
+       color: rgb(23, 92, 255);
+       font-size: 15px;
+       margin-top: 3px;
+       
+   }
+   .section-two .section-two-left .section-two-right-icons-2 p{
+        margin-top: 8px;
+       margin-left: 10px;
+       color: rgb(87, 87, 87);
+   font-size: 15px;
+   line-height: 5px;
+   }
+
+   .section-two .section-two-left .section-two-right-icons-3{
+    height: 40px;
+   width: 300px;
+   display: flex;
+   margin-top: 0px;
+   margin-left: 300px;
+   }
+   .section-two .section-two-left .section-two-right-icons-3 i{
+       color: rgb(23, 92, 255);
+       font-size: 15px;
+       margin-top: 3px;
+       
+   }
+   .section-two .section-two-left .section-two-right-icons-3 p{
+        margin-top: 8px;
+       margin-left: 10px;
+       color: rgb(87, 87, 87);
+   font-size: 15px;
+   line-height: 5px;
+   }
+   /* -----------section-two-left-side---------- */
+   .section-two .section-two-right{
+    width: 41%;
+    height: 600px;
+    margin-left: 750px;
+    margin-top: -650px;
+   }
+   .section-two .section-two-right img{
+    height: 100%;
+    width: 100%;
+    }

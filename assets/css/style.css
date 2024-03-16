@@ -5,8 +5,9 @@
     margin: 0;
     font-family: "Poppins", sans-serif;
     box-sizing: border-box;
-    
+
 }
+
 /* ===============Header-(Start)============= */
 header nav {
     width: 100%;
@@ -54,7 +55,7 @@ header nav .right-side ul .contact {
     padding: 10px;
     margin-right: 20px;
     border-radius: 5px;
-transition: all 0.5s;
+    transition: all 0.5s;
 }
 
 header nav .right-side ul li a:hover {
@@ -71,6 +72,7 @@ header nav .right-side ul .contact:hover {
     transition: all 0.5s;
 
 }
+
 /* ===============Header-(End)============= */
 
 /* ===============Top-section-(Start)============= */
@@ -81,7 +83,7 @@ header nav .right-side ul .contact:hover {
     /* width: 100%; */
     background-color: #0b163f;
     display: flex;
-    flex-direction:  row;
+    flex-direction: row;
 }
 
 
@@ -107,7 +109,8 @@ header nav .right-side ul .contact:hover {
     line-height: 30px;
     color: rgba(255, 255, 255, 0.7);
 }
-.top .top-left-side input{
+
+.top .top-left-side input {
     border: none;
     margin-top: 20px;
     height: 50px;
@@ -120,8 +123,9 @@ header nav .right-side ul .contact:hover {
     line-height: 26px;
     transition: all 0.5s;
 }
-.top .top-left-side input:hover{
-   
+
+.top .top-left-side input:hover {
+
     background: transparent;
     outline: 1.5px solid rgba(255, 255, 255, 0.7);
     transition: all 0.5s;
@@ -129,12 +133,13 @@ header nav .right-side ul .contact:hover {
 }
 
 /* ----------top-section-right-side---------- */
-.top .top-right-side{
+.top .top-right-side {
     width: 60%;
     height: 100vh;
-  position: relative;
-  }
-.top .top-right-side img{
+    position: relative;
+}
+
+.top .top-right-side img {
     width: 580px;
     height: 650px;
     margin: 70px;
@@ -145,46 +150,52 @@ header nav .right-side ul .contact:hover {
 /* ===============Section-One-(Start)============= */
 
 /* -----------------section-one------------ */
-.section-one{
-    width: 100%; 
+.section-one {
+    width: 100%;
     height: 130vh;
     background-color: #f8f9fa;
-align-items: center;
-    justify-content: center;    
+    align-items: center;
+    justify-content: center;
 }
-.section-one .section-one-text{
-width: 50%;
-margin: auto;
-text-align: center;
-padding-top: 150px;
-/* justify-content: center; */
+
+.section-one .section-one-text {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding-top: 150px;
+    /* justify-content: center; */
 }
-.section-one .section-one-text h2{
+
+.section-one .section-one-text h2 {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
     color: rgb(23, 92, 255);
 }
-.section-one .section-one-text h1{
+
+.section-one .section-one-text h1 {
     font-size: 40px;
     font-weight: 700;
     color: rgb(7, 28, 77);
     line-height: 80px;
 }
-.section-one .section-one-text p{
+
+.section-one .section-one-text p {
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
     color: rgb(82, 82, 92);
 }
+
 /* --------------section-one-task--------------- */
-.section-one-task{
+.section-one-task {
     width: 100%;
     padding: 100px;
     display: flex;
 }
+
 /* ------------section-one-task-one---------- */
-.section-one-task .task1{
+.section-one-task .task1 {
     width: 350px;
     height: 250px;
     padding: 30px;
@@ -192,19 +203,22 @@ padding-top: 150px;
     border-radius: 10px;
     transition: all 0.3s;
 }
-.section-one-task .task1 h1{
+
+.section-one-task .task1 h1 {
     font-size: 20px;
     font-weight: 600;
     line-height: 44px;
     color: rgb(7, 28, 77);
 }
-.section-one-task .task1 p{
+
+.section-one-task .task1 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: rgb(82, 82, 92);
 }
-.section-one-task .task1 i{
+
+.section-one-task .task1 i {
     font-size: 25px;
     text-align: center;
     padding: 15px;
@@ -216,7 +230,8 @@ padding-top: 150px;
     color: white;
     background-color: #175cff;
 }
-.section-one-task .task1:hover{
+
+.section-one-task .task1:hover {
     outline: none;
     margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
@@ -226,7 +241,7 @@ padding-top: 150px;
 
 /* ------------section-one-task-two---------- */
 
-.section-one-task .task2{
+.section-one-task .task2 {
     width: 350px;
     height: 250px;
     margin-left: 50px;
@@ -235,19 +250,22 @@ padding-top: 150px;
     border-radius: 10px;
     transition: all 0.2s;
 }
-.section-one-task .task2 h1{
+
+.section-one-task .task2 h1 {
     font-size: 20px;
     font-weight: 600;
     line-height: 44px;
     color: rgb(7, 28, 77);
 }
-.section-one-task .task2 p{
+
+.section-one-task .task2 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 25px;
     color: rgb(82, 82, 92);
 }
-.section-one-task .task2 i{
+
+.section-one-task .task2 i {
     font-size: 25px;
     text-align: center;
     padding: 15px;
@@ -259,7 +277,8 @@ padding-top: 150px;
     color: white;
     background-color: #f25767;
 }
-.section-one-task .task2:hover{
+
+.section-one-task .task2:hover {
     border: none;
     margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
@@ -269,7 +288,7 @@ padding-top: 150px;
 
 /* ------------section-one-task-three---------- */
 
-.section-one-task .task3{
+.section-one-task .task3 {
     width: 350px;
     height: 250px;
     margin-left: 50px;
@@ -278,19 +297,22 @@ padding-top: 150px;
     border-radius: 10px;
     transition: all 0.2s;
 }
-.section-one-task .task3 h1{
+
+.section-one-task .task3 h1 {
     font-size: 20px;
     font-weight: 600;
     line-height: 44px;
     color: rgb(7, 28, 77);
 }
-.section-one-task .task3 p{
+
+.section-one-task .task3 p {
     font-size: 16px;
     font-weight: 400;
     line-height: 20px;
     color: rgb(82, 82, 92);
 }
-.section-one-task .task3 i{
+
+.section-one-task .task3 i {
     font-size: 25px;
     text-align: center;
     padding: 15px;
@@ -302,113 +324,129 @@ padding-top: 150px;
     color: white;
     background-color: #0b163f;
 }
-.section-one-task .task3:hover{
+
+.section-one-task .task3:hover {
     border: none;
     margin-top: -7px;
     box-shadow: 2px 2px 40px 0px rgba(165, 165, 173, 0.3);
     transition: all 0.3s;
     background-color: white;
 }
+
 /* ===============Section-One-(End)============= */
 
 
 /* ===============Section-Two-(Start)============= */
 
 /* -----------------section-two------------ */
-.section-two{
+.section-two {
     width: 100%;
     height: 100vh;
 }
 
 /* -----------section-two-left-side---------- */
-.section-two .section-two-left{
-width: 57%;
-padding: 100px;
-margin-top: 100px;
-/* display: flex; */
+.section-two .section-two-left {
+    width: 57%;
+    padding: 100px;
+    margin-top: 100px;
+    /* display: flex; */
 }
-.section-two .section-two-left h1{
+
+.section-two .section-two-left h1 {
     color: rgb(7, 28, 77);
     font-size: 40px;
     font-weight: 700;
     line-height: 48px;
 }
-.section-two .section-two-left .section-two-left-image{
+
+.section-two .section-two-left .section-two-left-image {
     height: 50px;
     width: 50px;
     margin-top: -50px;
 
-       
+
 }
-.section-two .section-two-left .section-two-left-image img{
+
+.section-two .section-two-left .section-two-left-image img {
     height: 100%;
     width: 100%;
-   margin-left: 280px;
+    margin-left: 280px;
 }
-.section-two .section-two-left p{
- font-size: 16px;
- margin-top: 20px;
- line-height: 25px;
+
+.section-two .section-two-left p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: rgb(82, 82, 92);
 }
 
 /* <!-------- section-two-left-side-icons ---------> */
-.section-two .section-two-left-icons{
+.section-two .section-two-left-icons {
     height: 200px;
     width: 300px;
-    /* display: flex; */
-}
-.section-two .section-two-left .section-two-left-icons-1{
- height: 40px;
-width: 250px;
-display: flex;
-margin-top: 40px;
-}
-.section-two .section-two-left .section-two-left-icons-1 i{
-    color: rgb(23, 92, 255);
-    font-size: 15px;
-    margin-top: 3px;
     
 }
-.section-two .section-two-left .section-two-left-icons-1 p{
-     margin-top: 8px;
-    margin-left: 10px;
-    color: rgb(87, 87, 87);
-font-size: 15px;
-line-height: 5px;
-}
-.section-two .section-two-left .section-two-left-icons-2{
+
+.section-two .section-two-left .section-two-left-icons-1 {
     height: 40px;
-   width: 300px;
-   display: flex;
-   margin-top: 0px;
-   }
-   .section-two .section-two-left .section-two-left-icons-2 i{
+    width: 250px;
+    display: flex;
+    margin-top: 40px;
+}
+
+.section-two .section-two-left .section-two-left-icons-1 i {
     color: rgb(23, 92, 255);
     font-size: 15px;
     margin-top: 3px;
-    
+
 }
-.section-two .section-two-left .section-two-left-icons-2 p{
-     margin-top: 8px;
+
+.section-two .section-two-left .section-two-left-icons-1 p {
+    margin-top: 8px;
     margin-left: 10px;
     color: rgb(87, 87, 87);
     font-size: 15px;
     line-height: 5px;
 }
-.section-two .section-two-left .section-two-left-icons-3{
+
+.section-two .section-two-left .section-two-left-icons-2 {
     height: 40px;
-   width: 300px;
-   display: flex;
-   margin-top: 0px;
-   }
-   .section-two .section-two-left .section-two-left-icons-3 i{
+    width: 300px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.section-two .section-two-left .section-two-left-icons-2 i {
     color: rgb(23, 92, 255);
     font-size: 15px;
     margin-top: 3px;
-    
+
 }
-.section-two .section-two-left .section-two-left-icons-3 p{
-     margin-top: 8px;
+
+.section-two .section-two-left .section-two-left-icons-2 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-two .section-two-left .section-two-left-icons-3 {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    margin-top: 0px;
+}
+
+.section-two .section-two-left .section-two-left-icons-3 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-two .section-two-left .section-two-left-icons-3 p {
+    margin-top: 8px;
     margin-left: 10px;
     color: rgb(87, 87, 87);
     font-size: 15px;
@@ -416,79 +454,348 @@ line-height: 5px;
 }
 
 /* <!-------- section-two-RIGHT-side-icons ---------> */
-.section-two .section-two-right-icons{
+.section-two .section-two-right-icons {
     height: 200px;
     width: 300px;
 }
-.section-two .section-two-left .section-two-right-icons-1{
-    height: 40px;
-   width: 300px;
-   display: flex;
-   margin-top: -200px;
-   margin-left: 300px;
-   }
-   .section-two .section-two-left .section-two-right-icons-1 i{
-       color: rgb(23, 92, 255);
-       font-size: 15px;
-       margin-top: 3px;
-       
-   }
-   .section-two .section-two-left .section-two-right-icons-1 p{
-        margin-top: 8px;
-       margin-left: 10px;
-       color: rgb(87, 87, 87);
-   font-size: 15px;
-   line-height: 5px;
-   }
-   .section-two .section-two-left .section-two-right-icons-2{
-    height: 40px;
-   width: 300px;
-   display: flex;
-   margin-top: 0px;
-   margin-left: 300px;
-   }
-   .section-two .section-two-left .section-two-right-icons-2 i{
-       color: rgb(23, 92, 255);
-       font-size: 15px;
-       margin-top: 3px;
-       
-   }
-   .section-two .section-two-left .section-two-right-icons-2 p{
-        margin-top: 8px;
-       margin-left: 10px;
-       color: rgb(87, 87, 87);
-   font-size: 15px;
-   line-height: 5px;
-   }
 
-   .section-two .section-two-left .section-two-right-icons-3{
+.section-two .section-two-left .section-two-right-icons-1 {
     height: 40px;
-   width: 300px;
-   display: flex;
-   margin-top: 0px;
-   margin-left: 300px;
-   }
-   .section-two .section-two-left .section-two-right-icons-3 i{
-       color: rgb(23, 92, 255);
-       font-size: 15px;
-       margin-top: 3px;
-       
-   }
-   .section-two .section-two-left .section-two-right-icons-3 p{
-        margin-top: 8px;
-       margin-left: 10px;
-       color: rgb(87, 87, 87);
-   font-size: 15px;
-   line-height: 5px;
-   }
-   /* -----------section-two-left-side---------- */
-   .section-two .section-two-right{
+    width: 300px;
+    display: flex;
+    margin-top: -200px;
+    margin-left: 300px;
+}
+
+.section-two .section-two-left .section-two-right-icons-1 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-two .section-two-left .section-two-right-icons-1 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-two .section-two-left .section-two-right-icons-2 {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.section-two .section-two-left .section-two-right-icons-2 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-two .section-two-left .section-two-right-icons-2 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-two .section-two-left .section-two-right-icons-3 {
+    height: 40px;
+    width: 300px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 300px;
+}
+
+.section-two .section-two-left .section-two-right-icons-3 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-two .section-two-left .section-two-right-icons-3 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+/* -----------section-two-right-side---------- */
+.section-two .section-two-right {
     width: 41%;
     height: 600px;
     margin-left: 750px;
     margin-top: -650px;
-   }
-   .section-two .section-two-right img{
+}
+
+.section-two .section-two-right img {
     height: 100%;
     width: 100%;
-    }
+}
+
+/* <==============section-three(Start)==================> */
+.section-three {
+    width: 100%;
+    height: 120vh;
+    background-color: #f8f9fa;
+}
+
+/* -----------section-three-left-side---------- */
+.section-three .section-three-left {
+    width: 41%;
+    height: 590px;
+    margin-left: 100px;
+}
+
+.section-three .section-three-left img {
+    height: 100%;
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* -----------section-three-right-side---------- */
+.section-three .section-three-right {
+    width: 55%;
+    float: right;
+   /* padding-right:  10px; */
+    margin-top: 0px;
+    margin-right: 20px;
+    /* display: flex; */
+}
+
+.section-three .section-three-right h1 {
+    color: rgb(7, 28, 77);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    margin-left: 0px;
+    padding: 100px;
+    margin-top: -470px;
+}
+.section-three .section-three-right .section-three-right-image {
+    height: 40px;
+    width: 40px;
+    margin-top: -143px;
+
+
+}
+
+.section-three .section-three-right .section-three-right-image img {
+    height: 100%;
+    width: 100%;
+    margin-left: 240px;
+}
+.section-three .section-three-right p{
+font-size: 16px;
+margin-top: 20px;
+margin-left: 100px;
+line-height: 20px;
+color: rgb(82, 82, 92);
+}
+
+
+/* <!-------- section-three-left-side-icons ---------> */
+.section-three .section-three-left-icons {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.section-three .section-three-right .section-three-left-icons-1 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 50px;
+    margin-left: 110px;
+}
+
+.section-three .section-three-right .section-three-left-icons-1 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-three .section-three-right .section-three-left-icons-1 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-three .section-three-right .section-three-left-icons-2 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 110px;
+}
+
+.section-three .section-three-right .section-three-left-icons-2 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-three .section-three-right .section-three-left-icons-2 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-three .section-three-right .section-three-left-icons-3 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 110px;
+}
+
+.section-three .section-three-right .section-three-left-icons-3 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-three .section-three-right .section-three-left-icons-3 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+
+/* <!-------- section-three-right-side-icons ---------> */
+.section-three .section-three-right-icons {
+    height: 200px;
+    width: 300px;
+    
+}
+
+.section-three .section-three-right .section-three-right-icons-1 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: -200px;
+    margin-left: 400px;
+}
+
+.section-three .section-three-right .section-three-right-icons-1 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-three .section-three-right .section-three-right-icons-1 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-three .section-three-right .section-three-right-icons-2 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+
+.section-three .section-three-right .section-three-right-icons-2 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+
+}
+
+.section-three .section-three-right .section-three-right-icons-2 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+.section-three .section-three-right .section-three-right-icons-3 {
+    height: 40px;
+    width: 250px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+
+.section-three .section-three-right .section-three-right-icons-3 i {
+    color: rgb(23, 92, 255);
+    font-size: 15px;
+    margin-top: 3px;
+    box-shadow: rgb(84, 202, 218) 0px 1px 4px;
+border-radius: 50%;
+}
+
+.section-three .section-three-right .section-three-right-icons-3 p {
+    margin-top: 8px;
+    margin-left: 10px;
+    color: rgb(87, 87, 87);
+    font-size: 15px;
+    line-height: 5px;
+}
+
+/* ==================section-four (Start)=============== */
+.section-four{
+    width: 100%;
+    height: 120vh;
+}
+
+/* -----------section-four-left-side---------- */
+.section-four .section-four-left {
+    width: 57%;
+    padding: 100px;
+    margin-top: 100px;
+    /* display: flex; */
+}
+
+.section-four .section-four-left h1 {
+    color: rgb(7, 28, 77);
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    
+}
+
+.section-four .section-four-left .section-four-left-image {
+    height: 50px;
+    width: 50px;
+    margin-top: -50px;
+
+
+
+}
+
+.section-two .section-two-left .section-two-left-image img {
+    height: 100%;
+    width: 100%;
+    margin-left: 280px;
+}
+
+.section-two .section-two-left p {
+    font-size: 16px;
+    margin-top: 20px;
+    line-height: 25px;
+    color: rgb(82, 82, 92);
+}

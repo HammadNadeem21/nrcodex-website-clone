@@ -1162,7 +1162,7 @@ header nav .right-side ul .contact:hover {
 /* ==============section-six (Start)================== */
 .section-six{
     width: 100%;
-    height: 100vh;
+    height: 130vh;
     background-color: #f8f9fa;
 }
 /* -------------section-six-text------------ */
@@ -1185,4 +1185,51 @@ line-height: 48px;
 font-weight: 700;
 color: rgb(7, 28, 77);
 padding-top: 20px;
+}
+
+/* ---------------section-six-picture---------------- */
+.section-six .section-six-pic1{
+    height: 700px;
+    width: 400px;
+    background-color: #ffffff;
+    margin-left: 100px;
+    border-radius: 20px;
+    
+}
+   
+
+.section-six .section-six-pic1 .section-six-pic1-image{
+    height: 320px;
+    width: 370px ;
+    margin-left: 15px;
+    overflow: hidden;
+    border-radius: 20px;
+    }
+
+.section-six .section-six-pic1 .section-six-pic1-image .bg1{
+    height: 325px;
+    width: 370px;
+    background-color: rgba(0, 0, 0, 0.4);
+    transform: translateY(-327px);
+    border-radius: 20px;
+    visibility: hidden;
+    /* transition: all 0.5s; */
+   /* margin-top: -100px; */
+
+}
+.section-six .section-six-pic1 .section-six-pic1-image img{
+    height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    border-radius: 20px;
+    /* background-size: cover; */
+
+}
+.section-six .section-six-pic1 .section-six-pic1-image:hover .bg1{
+    visibility: visible;
+    transition: all 0.5s;
+}
+.section-six .section-six-pic1 .section-six-pic1-image:hover   img{
+    transform: scale(1.1);
+    overflow: hidden;
 }

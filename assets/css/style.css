@@ -1366,32 +1366,53 @@ transition: all 0.1s;
     
 }
 
-.section-six button{
+.section-six li{
     margin-top: 750px;
     margin-left: 610px;
+    list-style: none;
     height: 45px;
     width: 180px;
     font-size: 15px;
     line-height: 31px;
     font-weight: 500;
-    color: white;
+   
     background-color: #175cff;
     border: none;
     border-radius: 5px;
-    justify-content: center;
+    /* justify-content: center;
     text-align: center;
+    align-items: center; */
+    padding: 10px 15px;
 }
-.section-six button:hover{
-    color: #175cff;
+.section-six li a{
+    text-decoration: none;
+    color: white;
+    /* padding-top: 100px; */
+}
+.section-six li a i{
+    margin-left: 3px;
+    /* padding-top: 10px; */
+}
+.section-six li:hover {
+    
     background: transparent;
     border: 2px solid #175cff;
 }
-.section-six button i{
+.section-six li:hover a{
+    color: #175cff;
+}
+
+/* .section-six button:hover{
+    color: #175cff;
+    background: transparent;
+    border: 2px solid #175cff;
+} */
+/* .section-six button i{ */
     transition: all 0.2s;
     /* margin-left: 20px; */
     
-}
+/* }
 .section-six button:hover i{
     margin-left: 10px;
     transition: all 0.2s;
-}
+} */ */

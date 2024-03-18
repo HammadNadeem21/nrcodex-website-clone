@@ -144,7 +144,45 @@ header nav .right-side ul .contact:hover {
     height: 650px;
     margin: 70px;
 }
-
+.top .whatsapp{
+    height: 58px;
+    width: 60px;
+    background-color: #25d366;
+    border-radius: 110px 110px 110px 110px;
+    margin-top: 400px;
+    position: fixed;
+    left: 93%;
+    cursor: pointer;
+ 
+    /* text-align: center;
+    margin-top: 400px;
+    position: fixed;
+    left: 93%;
+    bottom: 5%;
+    cursor: pointer; */
+    
+    /* background-color: #25d366;
+    border-radius: 20px 30px 0 0; */
+}
+.top .whatsapp img{
+    height: 65%;
+    width:65%;
+    margin-left: 11px;
+    margin-top: 10px;
+    
+}
+.top .whatsapp .shadow{
+    height: 60px;
+    width: 60px;
+    background-color: rgba(0, 0, 0, 0.3);
+    transform: translateY(-56px);
+    border-radius: 30px 30px 30px 30px;
+    visibility: hidden;
+}
+.top .whatsapp:hover .shadow{
+    visibility: visible;
+    transition: all 0.2s;
+}
 /* ===============Top-section-(End)============= */
 
 /* ===============Section-One-(Start)============= */
@@ -1512,7 +1550,8 @@ footer .footer-one .linkdin:hover{
     height: 330px;
     width: 360px;
     /* background-color: #f25767; */
-    margin-left: 460px;
+    margin-left: 440px;
+    
  }
  footer .footer-two h1{
     padding-top: 80px;
@@ -1520,4 +1559,156 @@ footer .footer-one .linkdin:hover{
     font-size: 20px;
     font-weight: 600;
     margin-left: 60px;
+    cursor: pointer;
+ }
+ footer .footer-two h4{
+    margin-left: 60px;
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 30px;
+    cursor: pointer;
+ }
+ footer .footer-two p{
+    margin-left: 60px;
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    cursor: pointer;
+ }
+
+ footer .footer-three{
+    height: 330px;
+    width: 360px;
+    /* background-color: #f25767; */
+    margin-left: 800px;
+    margin-top: -355px;
+ }
+ footer .footer-three h1{
+    padding-top: 80px;
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(222, 222, 222);
+    font-weight: 600; 
+    cursor: pointer;
+ }
+ footer .footer-three h2{
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    margin-top: 25px;
+    line-height: 30px;
+    cursor: pointer;
+ }
+ footer .footer-three h3{
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 30px;
+    cursor: pointer;
+ }
+ footer .footer-three h4{
+    font-size: 16px;
+    color: rgb(222, 222, 222);
+    font-weight: 400;
+    margin-top: 0px;
+    line-height: 30px;
+    cursor: pointer;
+ }
+ footer .footer-four{
+    height: 330px;
+    width: 360px;
+    /* background-color: #f25767; */
+    margin-left: 980px;
+    margin-top: -330px;
+   
+    
+ }
+ footer .footer-four h1{
+    padding-top: 80px;
+   
+    font-size: 20px;
+    color: rgb(222, 222, 222);
+    font-weight: 600; 
+    cursor: pointer;
+ }
+ footer .footer-four .phone{
+    width: 200px;
+    /* background-color: #175cff; */
+    cursor: pointer;
+    margin-top: 20px;
+    padding-top: 10px;
+ }
+
+ footer .footer-four .phone i{
+color:rgb(222, 222, 222); 
+font-size: 14px;
+
+ }
+ footer .footer-four .phone p{
+    color:rgb(222, 222, 222); 
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: -25px;
+    
+ }
+
+ footer .footer-four .Email{
+    width: 200px;
+    /* background-color: #175cff; */
+    cursor: pointer;
+    /* margin-top: 21px; */
+    padding-top: 10px;
+ }
+
+ footer .footer-four .Email i{
+color:rgb(222, 222, 222); 
+font-size: 14px;
+
+ }
+ footer .footer-four .Email p{
+    color:rgb(222, 222, 222); 
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: -25px;
+    
+ }
+ footer .footer-four .Location{
+    width: 200px;
+    /* background-color: #175cff; */
+    cursor: pointer;
+    /* margin-top: 21px; */
+    padding-top: 10px;
+ }
+
+ footer .footer-four .Location i{
+color:rgb(222, 222, 222); 
+font-size: 14px;
+
+ }
+ footer .footer-four .Location p{
+    color:rgb(222, 222, 222); 
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 25px;
+    margin-top: -25px;
+    
+ }
+
+ footer .footer-last{
+    width: 90%;
+    height: 0.5px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin-top: 60px;
+    margin-left: 70px;
+ }
+ footer .last-text{
+    color: white;
+    font-size: 16px;
+    margin-left: 450px;
+    margin-top: 15px;
  }

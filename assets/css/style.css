@@ -16,6 +16,7 @@ header nav {
     background: #0b163f;
     display: flex;
     justify-content: space-between;
+    position: fixed;
 
 }
 
@@ -90,9 +91,9 @@ header nav .right-side ul .contact:hover {
 /* ----------top-section-left-side---------- */
 .top-left-side {
     height: 500px;
-    width: 40%;
+    width: 60%;
     padding: 200px 0;
-    margin-left: 100px;
+    margin-left: 90px;
 }
 
 .top-left-side h1 {
@@ -142,7 +143,8 @@ header nav .right-side ul .contact:hover {
 .top .top-right-side img {
     width: 580px;
     height: 650px;
-    margin: 70px;
+    /* margin: 70PX; */
+    margin-top: 150px;
 }
 .top .whatsapp{
     height: 58px;
@@ -152,6 +154,7 @@ header nav .right-side ul .contact:hover {
     margin-top: 400px;
     position: fixed;
     left: 93%;
+    top: 20%;
     cursor: pointer;
  
     /* text-align: center;
@@ -1234,7 +1237,7 @@ padding-top: 20px;
     border-radius: 20px;
     margin-top: 100px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    position: absolute;
+    /* position: absolute; */
 }
 .section-six .section-six-pic1 .section-six-image1{
     height: 280px;
@@ -1321,9 +1324,9 @@ transition: all 0.1s;
     background-color: #ffffff;
     margin-left: 510px;
     border-radius: 20px;
-    margin-top: 100px;
+    margin-top: -550px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    position: absolute;
+    /* position: absolute; */
 }
 .section-six .section-six-pic2 .section-six-image2{
     height: 280px;
